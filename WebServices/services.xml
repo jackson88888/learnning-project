@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+
+	<service>
+		<name>XfireService</name>
+		<serviceClass>com.service.IService</serviceClass>
+		<implementationClass>
+			com.service.ServiceImpl
+		</implementationClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+	<service>
+		<name>XfireService11</name>
+		<serviceClass>com.service.IService</serviceClass>
+		<implementationClass>
+			com.service.ServiceImpl
+		</implementationClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+</beans>
